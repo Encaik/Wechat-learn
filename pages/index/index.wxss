@@ -1,0 +1,147 @@
+/**index.wxss**/
+.container{
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.banner{
+  padding: 0;
+  margin: 0;
+  width: 750rpx;
+  height:30%;
+}
+
+image{
+  width: 100%;
+}
+
+.icon{
+  padding: 0;
+  margin: 0;
+  height: 230rpx;
+  width: 752rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.icon navigator{
+  padding: 20rpx;
+  margin: 0;
+  width: 145rpx;
+  float: left;
+}
+
+.icon image{
+  padding: 0;
+  margin: 0;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50px;
+}
+
+.icon text{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  color: #2f2f2f;
+}
+
+.body {
+  width: 750rpx;
+  padding: 0;
+  margin: 10rpx 0;
+  display:flex;
+  flex-direction:column;
+}
+
+.body text {
+  padding: 0;
+  margin: 0;
+  color: gray;
+  display: flex;
+  justify-content:center;
+}
+
+.shop text {
+  padding: 0;
+  margin: 0;
+  color: gray;
+}
+
+.shop navigator {
+  margin: 10rpx 20rpx;
+  padding: 0;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.shop button {
+  padding: 0;
+  margin: 0;
+  align-items: right;
+  font-size: small;
+  height: 60rpx;
+  width: 120rpx;
+}
+
+.shop .money {
+  padding: 60rpx 20rpx;
+  margin: 0;
+  border-radius: 3px;
+  background-color: skyblue;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.shop .date {
+  padding: 15rpx 35rpx;
+  margin: 0;
+  display: flex;
+  justify-content:space-between;
+}
+
+.body .thing {
+  margin: 0 20rpx;
+  padding: 0;
+  border-radius: 3px;
+  display: block;
+}
+
+.thing image {
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 5rpx;
+}
+
+.thing .data {
+  padding: 0;
+  margin: 15rpx 0;
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.thing view {
+  padding: 15rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.thing .thing_name {
+  color: #000;
+}
+
+.thing .thing_prise {
+  font-size: x-large;
+  color: orange;
+}
